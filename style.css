@@ -1,0 +1,51 @@
+.card{
+    background-color: rgba(255, 255, 255, 0.333);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: 20px solid rgba(255, 255, 255, 0.333);
+    padding: 20px;
+    box-shadow: 6px 6px 6px rgb(78, 78, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+h1{
+ background-color: rgba(255, 255, 255, 0.333)
+}
+h2{
+background-color: rgba(255, 255, 255, 0.333)
+
+}
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://clickwallpapers.net/wp-content/uploads/2022/08/clickwallpapers-Mexico-img2.jpg);
+    background-size: contain;
+}
+#chapo{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    
+
+}
+#facebook{
+    height: 200px;
+    width: 200px;
+}
+#kalash{
+    height: 30%;
+    rotate: 90deg;
+    
+    
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0);
+
+}
