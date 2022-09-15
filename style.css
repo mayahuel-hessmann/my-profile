@@ -28,6 +28,7 @@ body{
     height: 250px;
     width: 400px;
     border-radius: 10px;
+    margin: 0 auto;
     
 
 }
@@ -36,16 +37,27 @@ body{
     width: 200px;
 }
 #kalash{
-    height: 30%;
+    height: 35%;
     rotate: 90deg;
-    
+    position: absolute;
+    margin-top: 35%;
+
     
 }
 #right{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 40%;
+    margin-left: 60%;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
 
 }
